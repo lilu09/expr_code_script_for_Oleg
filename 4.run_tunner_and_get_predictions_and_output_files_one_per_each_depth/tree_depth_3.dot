@@ -1,0 +1,1099 @@
+digraph G
+{
+	node [shape = none];
+	rankdir = LR;
+	node0
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,100] [1 ,100] [1 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 100] [2]</td></tr>
+	        </table>>
+	]
+	node1
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,50] [1 ,50] [1 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 50] [2]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node1:port4
+	node2
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 25, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 25, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [1 ,25] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 1, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 25, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 25, 25] [2]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node2:port4
+	node3
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 25, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 25, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [1 ,25] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 1, 26] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 25, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 25, 50] [2]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node3:port4
+	node4
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 26, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 26, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [26 ,50] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 26, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 26, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 50, 25] [1]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node4:port4
+	node5
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 26, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 26, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [26 ,50] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 26, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 26, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 50, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 50, 50] [1]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node5:port4
+	node6
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 1, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 25, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 25, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [1 ,25] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 25, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 25, 25] [2]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node6:port4
+	node7
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 1, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 25, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 25, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [1 ,25] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 26] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 25, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 25, 50] [2]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node7:port4
+	node8
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 26, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 26, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 50, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [26 ,50] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 26, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 26, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 25] [1]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node8:port4
+	node9
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 26, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 26, 50] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 50, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 50, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [26 ,50] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 26, 26] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 26, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 50] [2]</td></tr>
+	        </table>>
+	]
+	node1:port4 -> node9:port4
+	node10
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,50] [1 ,50] [51 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 100] [2]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node10:port4
+	node11
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" bgcolor="green">Vertex: [1, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" bgcolor="green">Vertex: [1, 1, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" bgcolor="green">Vertex: [1, 25, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" bgcolor="green">Vertex: [1, 25, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" bgcolor="green">Node: [1 ,25] [1 ,25] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" bgcolor="green">Vertex: [25, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" bgcolor="green">Vertex: [25, 1, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" bgcolor="green">Vertex: [25, 25, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" bgcolor="green">Vertex: [25, 25, 75] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node11:port4
+	node12
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 1, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 25, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 25, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [1 ,25] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 1, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 25, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 25, 100] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node12:port4
+	node13
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 26, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 26, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [26 ,50] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 26, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 26, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 50, 75] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node13:port4
+	node14
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 26, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 26, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 50, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 50, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [26 ,50] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 26, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 26, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 50, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 50, 100] [2]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node14:port4
+	node15
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 1, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 25, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 25, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [1 ,25] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 25, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 25, 75] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node15:port4
+	node16
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 1, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 25, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 25, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [1 ,25] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 1, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 25, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 25, 100] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node16:port4
+	node17
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 26, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 26, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 50, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 50, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [26 ,50] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 26, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 26, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 75] [1]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node17:port4
+	node18
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 26, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 26, 100] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 50, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 50, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [26 ,50] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 26, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 26, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 50, 76] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 50, 100] [2]</td></tr>
+	        </table>>
+	]
+	node10:port4 -> node18:port4
+	node19
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,50] [51 ,100] [1 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node19:port4
+	node20
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 75, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 75, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [51 ,75] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 51, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 75, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 75, 25] [1]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node20:port4
+	node21
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 75, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 75, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [51 ,75] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 51, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 51, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 75, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 75, 50] [2]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node21:port4
+	node22
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 76, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 76, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [76 ,100] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 76, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 76, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 100, 25] [2]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node22:port4
+	node23
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 76, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 76, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [76 ,100] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 76, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 76, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 100, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node23:port4
+	node24
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 51, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 75, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 75, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [51 ,75] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 75, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 75, 25] [1]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node24:port4
+	node25
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 51, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 75, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 75, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [51 ,75] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 75, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 75, 50] [1]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node25:port4
+	node26
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 76, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 76, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 100, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [76 ,100] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 76, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 76, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 25] [1]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node26:port4
+	node27
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 76, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 76, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 100, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 100, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [76 ,100] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 76, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 76, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node19:port4 -> node27:port4
+	node28
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,50] [51 ,100] [51 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 100] [1]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node28:port4
+	node29
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 75, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 75, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [51 ,75] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 51, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 51, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 75, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 75, 75] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node29:port4
+	node30
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 51, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 51, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 75, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 75, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [51 ,75] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 51, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 75, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 75, 100] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node30:port4
+	node31
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 76, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 76, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [76 ,100] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 76, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 76, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 100, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 100, 75] [1]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node31:port4
+	node32
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [1, 76, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [1, 76, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [1, 100, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [1, 100, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [1 ,25] [76 ,100] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [25, 76, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [25, 76, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [25, 100, 76] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [25, 100, 100] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node32:port4
+	node33
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 51, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 51, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 75, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 75, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [51 ,75] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 75, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 75, 75] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node33:port4
+	node34
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 51, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 51, 100] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 75, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 75, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [51 ,75] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 51, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 75, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 75, 100] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node34:port4
+	node35
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 76, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 76, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 100, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 100, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [76 ,100] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 76, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 76, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 75] [2]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node35:port4
+	node36
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [26, 76, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [26, 76, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [26, 100, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [26, 100, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [26 ,50] [76 ,100] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [50, 76, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [50, 76, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [50, 100, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [50, 100, 100] [1]</td></tr>
+	        </table>>
+	]
+	node28:port4 -> node36:port4
+	node37
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,100] [1 ,50] [1 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 50, 50] [1]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node37:port4
+	node38
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 25, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 25, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [1 ,25] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 1, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 25, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 25, 25] [2]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node38:port4
+	node39
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 25, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 25, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [1 ,25] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 1, 26] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 25, 26] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 25, 50] [2]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node39:port4
+	node40
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 26, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 26, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [26 ,50] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 26, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 26, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 50, 25] [2]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node40:port4
+	node41
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 26, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 26, 50] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [26 ,50] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 26, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 26, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 50, 26] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 50, 50] [1]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node41:port4
+	node42
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 1, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 1, 25] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 25, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 25, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [1 ,25] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 25, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 25, 25] [2]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node42:port4
+	node43
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 1, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 1, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 25, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 25, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [1 ,25] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 26] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 25, 26] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 25, 50] [2]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node43:port4
+	node44
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 26, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 26, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 50, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 50, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [26 ,50] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 26, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 26, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 50, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 50, 25] [1]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node44:port4
+	node45
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 26, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 26, 50] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 50, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 50, 50] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [26 ,50] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 26, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 26, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 50, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 50, 50] [1]</td></tr>
+	        </table>>
+	]
+	node37:port4 -> node45:port4
+	node46
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,100] [1 ,50] [51 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 50, 100] [1]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node46:port4
+	node47
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 25, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 25, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [1 ,25] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 1, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 25, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 25, 75] [1]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node47:port4
+	node48
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 1, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 25, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 25, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [1 ,25] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 1, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 25, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 25, 100] [2]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node48:port4
+	node49
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 26, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 26, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [26 ,50] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 26, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 26, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 50, 75] [2]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node49:port4
+	node50
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 26, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 26, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 50, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 50, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [26 ,50] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 26, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 26, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 50, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 50, 100] [1]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node50:port4
+	node51
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 1, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 1, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 25, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 25, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [1 ,25] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 25, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 25, 75] [2]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node51:port4
+	node52
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 1, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 1, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 25, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 25, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [1 ,25] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 1, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 1, 100] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 25, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 25, 100] [2]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node52:port4
+	node53
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" bgcolor="green">Vertex: [76, 26, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" bgcolor="green">Vertex: [76, 26, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" bgcolor="green">Vertex: [76, 50, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" bgcolor="green">Vertex: [76, 50, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" bgcolor="green">Node: [76 ,100] [26 ,50] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" bgcolor="green">Vertex: [100, 26, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" bgcolor="green">Vertex: [100, 26, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" bgcolor="green">Vertex: [100, 50, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" bgcolor="green">Vertex: [100, 50, 75] [2]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node53:port4
+	node54
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 26, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 26, 100] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 50, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 50, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [26 ,50] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 26, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 26, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 50, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 50, 100] [1]</td></tr>
+	        </table>>
+	]
+	node46:port4 -> node54:port4
+	node55
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 100, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,100] [51 ,100] [1 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node55:port4
+	node56
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 75, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 75, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [51 ,75] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 51, 25] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 75, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 75, 25] [1]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node56:port4
+	node57
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 75, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 75, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [51 ,75] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 51, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 51, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 75, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 75, 50] [2]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node57:port4
+	node58
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 76, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 76, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 100, 25] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [76 ,100] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 76, 1] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 76, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 100, 1] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 100, 25] [2]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node58:port4
+	node59
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" bgcolor="green">Vertex: [51, 76, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" bgcolor="green">Vertex: [51, 76, 50] [2]</td></tr>
+			       <tr><td port="port2"  border="1" bgcolor="green">Vertex: [51, 100, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" bgcolor="green">Vertex: [51, 100, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" bgcolor="green">Node: [51 ,75] [76 ,100] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" bgcolor="green">Vertex: [75, 76, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" bgcolor="green">Vertex: [75, 76, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" bgcolor="green">Vertex: [75, 100, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" bgcolor="green">Vertex: [75, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node59:port4
+	node60
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 51, 1] [0]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 51, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 75, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 75, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [51 ,75] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 1] [0]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 75, 1] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 75, 25] [1]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node60:port4
+	node61
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 51, 26] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 51, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 75, 26] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 75, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [51 ,75] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 50] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 75, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 75, 50] [1]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node61:port4
+	node62
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 76, 1] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 76, 25] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 100, 1] [0]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 100, 25] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [76 ,100] [1 ,25]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 76, 1] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 76, 25] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 1] [0]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 25] [2]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node62:port4
+	node63
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 76, 26] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 76, 50] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 100, 26] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 100, 50] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [76 ,100] [26 ,50]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 76, 26] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 76, 50] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 26] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 50] [2]</td></tr>
+	        </table>>
+	]
+	node55:port4 -> node63:port4
+	node64
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 100, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 100, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,100] [51 ,100] [51 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 100] [2]</td></tr>
+	        </table>>
+	]
+	node0:port4 -> node64:port4
+	node65
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 51] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 75, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 75, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [51 ,75] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 51, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 51, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 75, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 75, 75] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node65:port4
+	node66
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 51, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 51, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 75, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 75, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [51 ,75] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 51, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 75, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 75, 100] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node66:port4
+	node67
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 76, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 76, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 100, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 100, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [76 ,100] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 76, 51] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 76, 75] [1]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 100, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 100, 75] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node67:port4
+	node68
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [51, 76, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [51, 76, 100] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [51, 100, 76] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [51, 100, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [51 ,75] [76 ,100] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [75, 76, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [75, 76, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [75, 100, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [75, 100, 100] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node68:port4
+	node69
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 51, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 51, 75] [1]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 75, 51] [1]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 75, 75] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [51 ,75] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 75, 51] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 75, 75] [1]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node69:port4
+	node70
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 51, 76] [1]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 51, 100] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 75, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 75, 100] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [51 ,75] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 51, 76] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 51, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 75, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 75, 100] [1]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node70:port4
+	node71
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 76, 51] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 76, 75] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 100, 51] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 100, 75] [2]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [76 ,100] [51 ,75]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 76, 51] [2]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 76, 75] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 51] [1]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 75] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node71:port4
+	node72
+	[
+		label = <<table border="0" cellspacing="0">
+			       <tr><td port="port0"  border="1" >Vertex: [76, 76, 76] [2]</td></tr>
+			       <tr><td port="port1"  border="1" >Vertex: [76, 76, 100] [2]</td></tr>
+			       <tr><td port="port2"  border="1" >Vertex: [76, 100, 76] [2]</td></tr>
+			       <tr><td port="port3"  border="1" >Vertex: [76, 100, 100] [1]</td></tr>
+			       <tr><td port="port4"  border="1" >Node: [76 ,100] [76 ,100] [76 ,100]</td></tr>
+			       <tr><td port="port5"  border="1" >Vertex: [100, 76, 76] [1]</td></tr>
+			       <tr><td port="port6"  border="1" >Vertex: [100, 76, 100] [2]</td></tr>
+			       <tr><td port="port7"  border="1" >Vertex: [100, 100, 76] [2]</td></tr>
+			       <tr><td port="port8"  border="1" >Vertex: [100, 100, 100] [2]</td></tr>
+	        </table>>
+	]
+	node64:port4 -> node72:port4
+}
